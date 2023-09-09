@@ -45,11 +45,7 @@ The Loadbalanced Chat App Backend is responsible for handling real-time chat fun
 4. Run
    ```shell
    pnpm dev
-4. For Build
+5. For Build
    ```shell
    pnpm build
-5. For Docker Build
-    ```shell
-    cmod +x ./run.sh
-    ./run.sh
 
