@@ -2,7 +2,7 @@
     debug
 }
 
-api.chatrifat.online {
+https://api.chatrifat.online:443 {
     reverse_proxy chat-app-1:3001 chat-app-2:4000 chat-app-3:5001 {
         header_down Strict-Transport-Security max-age=31536000
     }
